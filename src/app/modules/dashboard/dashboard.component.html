@@ -1,11 +1,36 @@
-<nav>
-  <div class="nav-wrapper">
-    <a href="#" class="brand-logo">Bayer Cricket Campaign</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="mobile.html"><i class="material-icons">person</i></a></li>
-    </ul>
-  </div>
-</nav>
+<div class="login-wrapper">
+  <nav>
+    <div class="nav-wrapper">
+      
+      <a href="#" class="brand1-logo">Bayer Cricket Campaign</a>
+      <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="mobile.html"><i class="material-icons">person</i></a></li>
+      </ul> -->
+    </div>
+  </nav>
+  
+  <div class="login-wrapper-in">
+    <div class="logo">
 
-<button><a routerLink="/question" s>Start Quiz</a></button>
-<router-outlet></router-outlet>
+    </div>
+    <div class="banner">
+      <div class="btn-holder1">
+        <p>
+          Welcome John doe, 
+          <br/>Thanks for Registering to the tournament<br/>Click the start quiz button to start the tournament
+        </p>
+      </div>
+     
+      <div class="btn-holder">
+        <button     class="btn waves-effect waves-light"
+                type="submit"
+                name="action"><a routerLink="/question" s>Start Quiz</a>
+              </button>
+      </div>
+      
+    </div>
+    
+    
+    <router-outlet></router-outlet>
+  </div>
+</div>

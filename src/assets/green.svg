@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117.46 59.66">
+  <defs>
+    <style>
+      .green-stroke {
+        fill: none;
+        stroke: #80bc00;
+        stroke-miterlimit: 10;
+        stroke-width: 1.76px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <g>
+          <line class="green-stroke" x1="13.79" y1="0.19" x2="0.86" y2="59.47"/>
+          <line class="green-stroke" x1="25.21" y1="0.19" x2="12.28" y2="59.47"/>
+          <line class="green-stroke" x1="36.63" y1="0.19" x2="23.7" y2="59.47"/>
+          <line class="green-stroke" x1="48.05" y1="0.19" x2="35.11" y2="59.47"/>
+          <line class="green-stroke" x1="59.46" y1="0.19" x2="46.53" y2="59.47"/>
+        </g>
+        <g>
+          <line class="green-stroke" x1="70.92" y1="0.19" x2="57.99" y2="59.47"/>
+          <line class="green-stroke" x1="82.34" y1="0.19" x2="69.41" y2="59.47"/>
+          <line class="green-stroke" x1="93.76" y1="0.19" x2="80.83" y2="59.47"/>
+          <line class="green-stroke" x1="105.18" y1="0.19" x2="92.25" y2="59.47"/>
+          <line class="green-stroke" x1="116.6" y1="0.19" x2="103.66" y2="59.47"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

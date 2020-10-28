@@ -1,0 +1,54 @@
+<div class="login-wrapper">
+    <div class="login-wrapper-in">
+    <div class="logo">
+  
+    </div>
+    <div class="row">
+      <div class="col s4">
+        <div class="card login-form" style="width: 18rem">
+          <div class="card-body cardpadding">
+            <form (ngSubmit)="onLogin()">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="userName" type="text" class="validate" ngModel name="userName"/>
+                <label for="userName">Username *</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">fingerprint</i>
+                <input id="password" type="password" class="validate" ngModel name="password" />
+                <label for="password">Password *</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">email</i>
+                <input id="Email" type="text" class="validate" ngModel name="Email"/>
+                <label for="Email">Email *</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">attach_money</i>
+                <input id="regFee" type="text" class="validate" ngModel name="regFee" disabled/>
+                <label for="regFee">Registration Fee - $1</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">attach_money</i>
+                <input id="Donate" type="number" class="validate" ngModel name="Donate"/>
+                <label for="Donate">Donate</label>
+              </div>
+              <div class="center">
+                <button
+                  class="btn waves-effect waves-light"
+                  type="submit"
+                  name="action"
+                >
+                  Register Me
+                  <i class="material-icons right">vpn_key</i>
+                </button>
+            </div>
+            </form>
+          </div>
+          <div class="col s4"></div>
+        </div>
+      </div>
+    </div>
+    <router-outlet></router-outlet>
+  </div>
+  </div>

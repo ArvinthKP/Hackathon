@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../../assets/green.svg),url(../../../assets/red.svg);
+    background-image: url(../../assets/green.svg),url(../../assets/red.svg);
     background-position: -67px 150px,101% 80%;
     background-repeat: no-repeat;
     background-size: 150px,110px 90px;
@@ -25,7 +25,7 @@
   }
 
   .banner{
-    background-image: url(../../../assets/banner.jpg);
+    background-image: url(../../assets/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +61,7 @@
     z-index: 120;
     top: -55px;
     left: 40px;
-    background-image: url(../../../assets/bayer_logo.svg);
+    background-image: url(../../assets/bayer_logo.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

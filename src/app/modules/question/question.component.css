@@ -1,0 +1,84 @@
+.info-widget {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .middle {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .question-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(167,169,172,0.28) 0%, #ffffff 22%);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  }
+  .question-container{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../assets/green.svg),url(../../../assets/red.svg);
+  background-position: -67px 150px,101% 80%;
+  background-repeat: no-repeat;
+  background-size: 150px,110px 90px;
+  background-color: transparent;
+  }
+
+  .btn{
+      width: 100px;
+      color: white;
+    background: #e7024d;
+    margin: 5px;
+  }
+
+  .btn-holder{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .card-out{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  [type="checkbox"]+span:not(.lever) {
+    color: black;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.card-bg{
+    background: linear-gradient(23.83deg, rgb(111 175 18 / 71%) 25%, #6faf12c7 52.87%, #6faf12 100%);
+}
+
+.timer{
+    background-color: rgb(167 167 167 / 50%);
+    padding: 4px;
+}
+
+.timer-holder{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,23 +1,21 @@
-<div class="container">
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
+<div class="login-wrapper">
+  <div class="login-wrapper-in">
+  <div class="logo">
+
+  </div>
   <div class="row">
-    <div class="col s4"></div>
     <div class="col s4">
-      <div class="card" style="width: 18rem">
+      <div class="card login-form" style="width: 18rem">
         <div class="card-body cardpadding">
           <form (ngSubmit)="onLogin()">
             <div class="input-field col s12">
               <i class="material-icons prefix">account_circle</i>
-              <input id="userName" type="text" class="validate" ngModel name="userName"/>
+              <input id="userName" type="text" class="validate" [(ngModel)]="userName" name="userName"/>
               <label for="userName">Username</label>
             </div>
             <div class="input-field col s12">
               <i class="material-icons prefix">fingerprint</i>
-              <input id="password" type="password" class="validate" ngModel name="password" />
+              <input id="password" type="password" class="validate" [(ngModel)]="password" name="password" />
               <label for="password">Password</label>
             </div>
             <div class="center">
@@ -34,7 +32,7 @@
 
             <div class="hrpadding">
               <hr>
-              <p>New User ? <a routerLink=''>Click here</a></p></div>
+              <p>Want to register for a tournament? <a routerLink='/signup'>Click here</a></p></div>
           </div>
           </form>
         </div>
@@ -43,4 +41,5 @@
     </div>
   </div>
   <router-outlet></router-outlet>
+</div>
 </div>

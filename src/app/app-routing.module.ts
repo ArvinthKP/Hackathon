@@ -4,6 +4,8 @@ import { HomeComponent } from './modules/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './modules/login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { ThanksComponent } from './thanks/thanks.component'
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
@@ -11,6 +13,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'question', component: QuestionComponent },
+  { path: 'signup', component: SignupComponent },
+  { path: 'thanks', component: ThanksComponent },
 
 ];
 

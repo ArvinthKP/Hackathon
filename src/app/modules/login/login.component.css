@@ -9,4 +9,67 @@
 
 .hrpadding{
   margin-top: 20px;
+  margin-left: -45px;
+  width: 200px;
+}
+
+.login-wrapper{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, rgba(167,169,172,0.28) 0%, #ffffff 22%);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+}
+
+.login-form{
+  background: linear-gradient(23.83deg, rgb(111 175 18 / 71%) 25%, #6faf12c7 52.87%, #6faf12 100%);
+}
+
+.input-field.col .prefix ~ label, .input-field.col .prefix ~ .validate ~ label {
+  color: #111807;
+}
+
+.btn{
+  background: #d30f4b;
+}
+
+.login-wrapper-in{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../assets/green.svg),url(../../../assets/red.svg);
+  background-position: -67px 150px,101% 80%;
+  background-repeat: no-repeat;
+  background-size: 150px,110px 90px;
+  background-color: transparent;
+}
+
+.login-wrapper::before{
+  content: '';
+    width: 350px;
+    height: 525px;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: -230px;
+    transform: skewX(-20deg);
+    background: linear-gradient(23.83deg, rgba(2, 186, 238, 0) 25%, #01739d 52.87%, #002e46 100%);
+}
+
+.logo{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  z-index: 100;
+  background-image: url(../../../assets/bayer_logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }

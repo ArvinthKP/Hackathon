@@ -18,7 +18,9 @@ export class SignupComponent implements OnInit {
   onLogin(){
     console.log(this.userName+this.password)
     console.log("sub")
-    alert("Thanks for your registration, we will send you the tournament details via Email");
+    if(confirm("Thanks for your registration, we will send you the tournament details via Email")) {
+      window.location.href = '/login';
+    }
   }
 
 }

@@ -19,6 +19,9 @@ startTimer() {
       } else {
         this.message = true;
         this.blockAnswer = true;
+        if(confirm("Times Up !, Answers will be automatically saved")) {
+          window.location.href = '/thanks';
+        }
       }
     },1000)
   }

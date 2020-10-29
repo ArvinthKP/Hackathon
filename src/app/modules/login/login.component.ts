@@ -19,11 +19,13 @@ export class LoginComponent implements OnInit {
     console.log(this.userName)
     if(this.userName == "admin" && this.password == "admin"){
       window.location.href ="/dashboard";
+    } else {
+      alert('Username and password should not be empty');
     }
     console.log("sub")
   }
 
   login(){
-    
+
   }
 }
